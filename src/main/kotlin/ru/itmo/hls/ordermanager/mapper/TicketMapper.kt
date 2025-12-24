@@ -1,4 +1,4 @@
-package ru.itmo.hls.orderservice.mapper
+package ru.itmo.hls.ordermanager.mapper
 
 import ru.itmo.tickets_shop.entity.SeatPrice
 import ru.itmo.tickets_shop.entity.Ticket

@@ -1,10 +1,10 @@
-package ru.itmo.hls.orderservice.repository
+package ru.itmo.hls.ordermanager.repository
 
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.data.jpa.repository.Query
 import org.springframework.stereotype.Repository
-import ru.itmo.hls.orderservice.entity.Order
-import ru.itmo.hls.orderservice.entity.OrderStatus
+import ru.itmo.hls.ordermanager.entity.Order
+import ru.itmo.hls.ordermanager.entity.OrderStatus
 import java.time.LocalDateTime
 
 @Repository

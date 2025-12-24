@@ -1,6 +1,6 @@
-package ru.itmo.hls.orderservice.dto
+package ru.itmo.hls.ordermanager.dto
 
-import ru.itmo.hls.orderservice.entity.OrderStatus
+import ru.itmo.hls.ordermanager.entity.OrderStatus
 import java.time.LocalDateTime
 
 

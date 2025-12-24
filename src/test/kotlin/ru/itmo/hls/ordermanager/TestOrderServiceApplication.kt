@@ -1,4 +1,4 @@
-package ru.itmo.hls.orderservice
+package ru.itmo.hls.ordermanager
 
 import org.springframework.boot.fromApplication
 import org.springframework.boot.with

@@ -1,11 +1,9 @@
-package ru.itmo.hls.orderservice.service
+package ru.itmo.hls.ordermanager.service
 
-import org.springframework.data.domain.Page
-import org.springframework.data.domain.Pageable
 import org.springframework.stereotype.Service
-import ru.itmo.hls.orderservice.entity.Ticket
-import ru.itmo.hls.orderservice.entity.TicketStatus
-import ru.itmo.hls.orderservice.repository.TicketRepository
+import ru.itmo.hls.ordermanager.entity.Ticket
+import ru.itmo.hls.ordermanager.entity.TicketStatus
+import ru.itmo.hls.ordermanager.repository.TicketRepository
 
 
 @Service

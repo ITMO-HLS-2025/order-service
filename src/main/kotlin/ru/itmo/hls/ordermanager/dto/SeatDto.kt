@@ -1,4 +1,4 @@
-package ru.itmo.hls.orderservice.dto
+package ru.itmo.hls.ordermanager.dto
 
 data class SeatDto(
     val id: Long,

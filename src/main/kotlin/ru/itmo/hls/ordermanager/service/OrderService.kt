@@ -1,4 +1,4 @@
-package ru.itmo.hls.orderservice.service
+package ru.itmo.hls.ordermanager.service
 
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
@@ -7,13 +7,13 @@ import org.springframework.data.domain.PageRequest
 import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
-import ru.itmo.hls.orderservice.dto.OrderDto
-import ru.itmo.hls.orderservice.dto.OrderPayload
-import ru.itmo.hls.orderservice.dto.TicketDto
-import ru.itmo.hls.orderservice.entity.OrderStatus
-import ru.itmo.hls.orderservice.entity.TicketStatus
-import ru.itmo.hls.orderservice.exception.OrderNotFoundException
-import ru.itmo.hls.orderservice.repository.OrderRepository
+import ru.itmo.hls.ordermanager.dto.OrderDto
+import ru.itmo.hls.ordermanager.dto.OrderPayload
+import ru.itmo.hls.ordermanager.dto.TicketDto
+import ru.itmo.hls.ordermanager.entity.OrderStatus
+import ru.itmo.hls.ordermanager.entity.TicketStatus
+import ru.itmo.hls.ordermanager.exception.OrderNotFoundException
+import ru.itmo.hls.ordermanager.repository.OrderRepository
 import java.time.LocalDateTime
 import kotlin.Int
 import kotlin.Long

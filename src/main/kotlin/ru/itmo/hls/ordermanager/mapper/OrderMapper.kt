@@ -1,4 +1,4 @@
-package ru.itmo.hls.orderservice.mapper
+package ru.itmo.hls.ordermanager.mapper
 
 import ru.itmo.tickets_shop.dto.OrderDto
 import ru.itmo.tickets_shop.dto.OrderPayload

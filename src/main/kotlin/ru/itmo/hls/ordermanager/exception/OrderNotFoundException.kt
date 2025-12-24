@@ -1,4 +1,4 @@
-package ru.itmo.hls.orderservice.exception
+package ru.itmo.hls.ordermanager.exception
 
 class OrderNotFoundException(message: String) : RuntimeException(message) {
 }

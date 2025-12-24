@@ -1,4 +1,4 @@
-package ru.itmo.hls.orderservice.entity
+package ru.itmo.hls.ordermanager.entity
 
 enum class TicketStatus {
     PAID, RESERVED, CANCELLED

@@ -1,4 +1,4 @@
-package ru.itmo.hls.orderservice.entity
+package ru.itmo.hls.ordermanager.entity
 
 import jakarta.persistence.*
 
